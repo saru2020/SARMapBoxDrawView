@@ -29,7 +29,7 @@ Used to Implement Free Hand Drawing on MapBox Map View(MGLMapView).
                    DESC
 
   s.homepage     = "https://github.com/saru2020/SARMapBoxDrawView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.png", "https://github.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
