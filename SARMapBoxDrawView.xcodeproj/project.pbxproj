@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A948C0F204E8600008C55C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948C0E204E8600008C55C0 /* AppDelegate.swift */; };
+		6A948C11204E8600008C55C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948C10204E8600008C55C0 /* ViewController.swift */; };
+		6A948C14204E8600008C55C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A948C12204E8600008C55C0 /* Main.storyboard */; };
+		6A948C16204E8600008C55C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A948C15204E8600008C55C0 /* Assets.xcassets */; };
+		6A948C19204E8600008C55C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A948C17204E8600008C55C0 /* LaunchScreen.storyboard */; };
+		6A948C24204E8600008C55C0 /* SARMapBoxDrawViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948C23204E8600008C55C0 /* SARMapBoxDrawViewUITests.swift */; };
+		6A948C30204E8631008C55C0 /* SARMapBoxDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948C2F204E8631008C55C0 /* SARMapBoxDrawView.swift */; };
+		6A948C31204E8631008C55C0 /* SARMapBoxDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948C2F204E8631008C55C0 /* SARMapBoxDrawView.swift */; };
+		B2987B00E924BA636916019B /* Pods_SARMapBoxDrawViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99706B04ABBB4FD4290F992B /* Pods_SARMapBoxDrawViewUITests.framework */; };
+		CB96C86BFCA6413DA2F451A4 /* Pods_SARMapBoxDrawView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2DDB8D4B98932DADDF7FB4 /* Pods_SARMapBoxDrawView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A948C20204E8600008C55C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A948C03204E8600008C55C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A948C0A204E8600008C55C0;
+			remoteInfo = SARMapBoxDrawView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3351BE991675D7E4CF60974E /* Pods-SARMapBoxDrawViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapBoxDrawViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapBoxDrawViewUITests/Pods-SARMapBoxDrawViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A948C0B204E8600008C55C0 /* SARMapBoxDrawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SARMapBoxDrawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A948C0E204E8600008C55C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A948C10204E8600008C55C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A948C13204E8600008C55C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A948C15204E8600008C55C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A948C18204E8600008C55C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A948C1A204E8600008C55C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A948C1F204E8600008C55C0 /* SARMapBoxDrawViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SARMapBoxDrawViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A948C23204E8600008C55C0 /* SARMapBoxDrawViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SARMapBoxDrawViewUITests.swift; sourceTree = "<group>"; };
+		6A948C25204E8601008C55C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A948C2F204E8631008C55C0 /* SARMapBoxDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SARMapBoxDrawView.swift; sourceTree = "<group>"; };
+		85AD81C92AD420BF55ACF3A9 /* Pods-SARMapBoxDrawView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapBoxDrawView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapBoxDrawView/Pods-SARMapBoxDrawView.debug.xcconfig"; sourceTree = "<group>"; };
+		99706B04ABBB4FD4290F992B /* Pods_SARMapBoxDrawViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SARMapBoxDrawViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BFDBDE5F684C0DDC14E6FC /* Pods-SARMapBoxDrawView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapBoxDrawView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapBoxDrawView/Pods-SARMapBoxDrawView.release.xcconfig"; sourceTree = "<group>"; };
+		C596F24A0C941B1C9F623451 /* Pods-SARMapBoxDrawViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapBoxDrawViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapBoxDrawViewUITests/Pods-SARMapBoxDrawViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB2DDB8D4B98932DADDF7FB4 /* Pods_SARMapBoxDrawView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SARMapBoxDrawView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A948C08204E8600008C55C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB96C86BFCA6413DA2F451A4 /* Pods_SARMapBoxDrawView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A948C1C204E8600008C55C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2987B00E924BA636916019B /* Pods_SARMapBoxDrawViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21E06FA3E1403F49BDE7A65C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85AD81C92AD420BF55ACF3A9 /* Pods-SARMapBoxDrawView.debug.xcconfig */,
+				A1BFDBDE5F684C0DDC14E6FC /* Pods-SARMapBoxDrawView.release.xcconfig */,
+				3351BE991675D7E4CF60974E /* Pods-SARMapBoxDrawViewUITests.debug.xcconfig */,
+				C596F24A0C941B1C9F623451 /* Pods-SARMapBoxDrawViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A948C02204E8600008C55C0 = {
+			isa = PBXGroup;
+			children = (
+				6A948C0D204E8600008C55C0 /* SARMapBoxDrawView */,
+				6A948C22204E8600008C55C0 /* SARMapBoxDrawViewUITests */,
+				6A948C0C204E8600008C55C0 /* Products */,
+				21E06FA3E1403F49BDE7A65C /* Pods */,
+				857A4F5C5B20E4BA26FCDBFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A948C0C204E8600008C55C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A948C0B204E8600008C55C0 /* SARMapBoxDrawView.app */,
+				6A948C1F204E8600008C55C0 /* SARMapBoxDrawViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A948C0D204E8600008C55C0 /* SARMapBoxDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				6A948C2E204E8620008C55C0 /* SARMapBoxDrawView */,
+				6A948C0E204E8600008C55C0 /* AppDelegate.swift */,
+				6A948C10204E8600008C55C0 /* ViewController.swift */,
+				6A948C12204E8600008C55C0 /* Main.storyboard */,
+				6A948C15204E8600008C55C0 /* Assets.xcassets */,
+				6A948C17204E8600008C55C0 /* LaunchScreen.storyboard */,
+				6A948C1A204E8600008C55C0 /* Info.plist */,
+			);
+			path = SARMapBoxDrawView;
+			sourceTree = "<group>";
+		};
+		6A948C22204E8600008C55C0 /* SARMapBoxDrawViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A948C23204E8600008C55C0 /* SARMapBoxDrawViewUITests.swift */,
+				6A948C25204E8601008C55C0 /* Info.plist */,
+			);
+			path = SARMapBoxDrawViewUITests;
+			sourceTree = "<group>";
+		};
+		6A948C2E204E8620008C55C0 /* SARMapBoxDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				6A948C2F204E8631008C55C0 /* SARMapBoxDrawView.swift */,
+			);
+			path = SARMapBoxDrawView;
+			sourceTree = "<group>";
+		};
+		857A4F5C5B20E4BA26FCDBFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2DDB8D4B98932DADDF7FB4 /* Pods_SARMapBoxDrawView.framework */,
+				99706B04ABBB4FD4290F992B /* Pods_SARMapBoxDrawViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A948C0A204E8600008C55C0 /* SARMapBoxDrawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A948C28204E8601008C55C0 /* Build configuration list for PBXNativeTarget "SARMapBoxDrawView" */;
+			buildPhases = (
+				6EA48CFAE9BDC4549EF838A6 /* [CP] Check Pods Manifest.lock */,
+				6A948C07204E8600008C55C0 /* Sources */,
+				6A948C08204E8600008C55C0 /* Frameworks */,
+				6A948C09204E8600008C55C0 /* Resources */,
+				4EB0ADC2A73A5B8054F49666 /* [CP] Embed Pods Frameworks */,
+				64D4D8E53B013C8D4804E241 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SARMapBoxDrawView;
+			productName = SARMapBoxDrawView;
+			productReference = 6A948C0B204E8600008C55C0 /* SARMapBoxDrawView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A948C1E204E8600008C55C0 /* SARMapBoxDrawViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A948C2B204E8601008C55C0 /* Build configuration list for PBXNativeTarget "SARMapBoxDrawViewUITests" */;
+			buildPhases = (
+				A23B7CBE06821C897C1A5DB8 /* [CP] Check Pods Manifest.lock */,
+				6A948C1B204E8600008C55C0 /* Sources */,
+				6A948C1C204E8600008C55C0 /* Frameworks */,
+				6A948C1D204E8600008C55C0 /* Resources */,
+				AC451C1DE0FA7C8E7AC15841 /* [CP] Embed Pods Frameworks */,
+				728A8AA68448CAF7632941D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A948C21204E8600008C55C0 /* PBXTargetDependency */,
+			);
+			name = SARMapBoxDrawViewUITests;
+			productName = SARMapBoxDrawViewUITests;
+			productReference = 6A948C1F204E8600008C55C0 /* SARMapBoxDrawViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A948C03204E8600008C55C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Saravanan Vijayakumar";
+				TargetAttributes = {
+					6A948C0A204E8600008C55C0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6A948C1E204E8600008C55C0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A948C0A204E8600008C55C0;
+					};
+				};
+			};
+			buildConfigurationList = 6A948C06204E8600008C55C0 /* Build configuration list for PBXProject "SARMapBoxDrawView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A948C02204E8600008C55C0;
+			productRefGroup = 6A948C0C204E8600008C55C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A948C0A204E8600008C55C0 /* SARMapBoxDrawView */,
+				6A948C1E204E8600008C55C0 /* SARMapBoxDrawViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A948C09204E8600008C55C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A948C19204E8600008C55C0 /* LaunchScreen.storyboard in Resources */,
+				6A948C16204E8600008C55C0 /* Assets.xcassets in Resources */,
+				6A948C14204E8600008C55C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A948C1D204E8600008C55C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EB0ADC2A73A5B8054F49666 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SARMapBoxDrawView/Pods-SARMapBoxDrawView-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapBoxDrawView/Pods-SARMapBoxDrawView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D4D8E53B013C8D4804E241 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapBoxDrawView/Pods-SARMapBoxDrawView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA48CFAE9BDC4549EF838A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SARMapBoxDrawView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728A8AA68448CAF7632941D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapBoxDrawViewUITests/Pods-SARMapBoxDrawViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23B7CBE06821C897C1A5DB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SARMapBoxDrawViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC451C1DE0FA7C8E7AC15841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapBoxDrawViewUITests/Pods-SARMapBoxDrawViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A948C07204E8600008C55C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A948C11204E8600008C55C0 /* ViewController.swift in Sources */,
+				6A948C0F204E8600008C55C0 /* AppDelegate.swift in Sources */,
+				6A948C30204E8631008C55C0 /* SARMapBoxDrawView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A948C1B204E8600008C55C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A948C31204E8631008C55C0 /* SARMapBoxDrawView.swift in Sources */,
+				6A948C24204E8600008C55C0 /* SARMapBoxDrawViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A948C21204E8600008C55C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A948C0A204E8600008C55C0 /* SARMapBoxDrawView */;
+			targetProxy = 6A948C20204E8600008C55C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A948C12204E8600008C55C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A948C13204E8600008C55C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A948C17204E8600008C55C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A948C18204E8600008C55C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A948C26204E8601008C55C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A948C27204E8601008C55C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A948C29204E8601008C55C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AD81C92AD420BF55ACF3A9 /* Pods-SARMapBoxDrawView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U4KKR37DC;
+				INFOPLIST_FILE = SARMapBoxDrawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravanan.SARMapBoxDrawView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A948C2A204E8601008C55C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BFDBDE5F684C0DDC14E6FC /* Pods-SARMapBoxDrawView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U4KKR37DC;
+				INFOPLIST_FILE = SARMapBoxDrawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravanan.SARMapBoxDrawView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A948C2C204E8601008C55C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3351BE991675D7E4CF60974E /* Pods-SARMapBoxDrawViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSHRCTUNBM;
+				INFOPLIST_FILE = SARMapBoxDrawViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravanan.SARMapBoxDrawViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SARMapBoxDrawView;
+			};
+			name = Debug;
+		};
+		6A948C2D204E8601008C55C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C596F24A0C941B1C9F623451 /* Pods-SARMapBoxDrawViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSHRCTUNBM;
+				INFOPLIST_FILE = SARMapBoxDrawViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saravanan.SARMapBoxDrawViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SARMapBoxDrawView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A948C06204E8600008C55C0 /* Build configuration list for PBXProject "SARMapBoxDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A948C26204E8601008C55C0 /* Debug */,
+				6A948C27204E8601008C55C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A948C28204E8601008C55C0 /* Build configuration list for PBXNativeTarget "SARMapBoxDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A948C29204E8601008C55C0 /* Debug */,
+				6A948C2A204E8601008C55C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A948C2B204E8601008C55C0 /* Build configuration list for PBXNativeTarget "SARMapBoxDrawViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A948C2C204E8601008C55C0 /* Debug */,
+				6A948C2D204E8601008C55C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A948C03204E8600008C55C0 /* Project object */;
+}
