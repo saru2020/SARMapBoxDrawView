@@ -6,7 +6,7 @@ Free Hand Drawing on MapBox Map View(MGLMapView) for iOS written in Swift.
 
 <br>
 
-![SARMapBoxDrawView](https://raw.githubusercontent.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.png)
+![SARMapBoxDrawView](https://github.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.png)
 
 <br>
 
@@ -20,9 +20,12 @@ or clone as a git submodule,
 
 or any way you'd prefer to play with ;)
 
+<br>
 <b>Usage :</b>
-Refer: 'ViewController.swift'
 
+<b><i>Refer:</b></i> 'ViewController.swift'
+
+<br>
 <b>For Demo :</b>
 
 Run 'SARMapBoxDrawView.xcworkspace'
