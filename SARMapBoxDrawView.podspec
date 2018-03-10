@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-Used to Implement Free Hand Drawing on MapBox Map View(MGLMapView).
+Used to Implement Free Hand Drawing on MapBox Map View(MGLMapView) for iOS Written in Swift.
                    DESC
 
   s.homepage     = "https://github.com/saru2020/SARMapBoxDrawView"
-  s.screenshots  = "https://github.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.png", "https://github.com/saru2020/SARMapBoxDrawView/blob/master/SARMapBoxDrawView.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/saru2020/SARMapBoxDrawView/master/SARMapBoxDrawView.gif", "https://raw.githubusercontent.com/saru2020/SARMapBoxDrawView/master/SARMapBoxDrawView.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,7 +39,7 @@ Used to Implement Free Hand Drawing on MapBox Map View(MGLMapView).
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,8 +64,8 @@ Used to Implement Free Hand Drawing on MapBox Map View(MGLMapView).
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "9.0"
+  s.platform     = :ios
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
