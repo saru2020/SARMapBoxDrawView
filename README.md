@@ -8,7 +8,9 @@ Free Hand Drawing on MapBox Map View(MGLMapView) for iOS written in Swift.
 
 
 <br>
-<b> SARMapBoxDrawView In Action :</b><br/>
+<u><b> SARMapBoxDrawView In Action :</b></u>
+<br/>
+<br/>
 
 ![SARMapBoxDrawView](https://raw.githubusercontent.com/saru2020/SARMapBoxDrawView/master/SARMapBoxDrawView.gif)
 
