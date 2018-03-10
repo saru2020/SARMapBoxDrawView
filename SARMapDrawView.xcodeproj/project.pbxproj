@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB681DEFACEEE350A745500 /* libPods-SARMapDrawViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D873510506F6FDF8B4CA84D0 /* libPods-SARMapDrawViewTests.a */; };
+		6AFEDC762047E2C200369C9E /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEDC752047E2C200369C9E /* NSArray+Extensions.m */; };
+		6AFEDC772047E2C200369C9E /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFEDC752047E2C200369C9E /* NSArray+Extensions.m */; };
+		D1EA4EF194CE23F986C6ECED /* libPods-SARMapDrawView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D44F6BC9A226566249640CFF /* libPods-SARMapDrawView.a */; };
+		EB2F21B91AFE9A35006E17DA /* SARMapDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2F21B81AFE9A35006E17DA /* SARMapDrawView.m */; };
+		EBC58E4E1AF697E40059E8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E4D1AF697E40059E8D2 /* main.m */; };
+		EBC58E511AF697E40059E8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E501AF697E40059E8D2 /* AppDelegate.m */; };
+		EBC58E541AF697E40059E8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E531AF697E40059E8D2 /* ViewController.m */; };
+		EBC58E571AF697E40059E8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC58E551AF697E40059E8D2 /* Main.storyboard */; };
+		EBC58E591AF697E40059E8D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC58E581AF697E40059E8D2 /* Images.xcassets */; };
+		EBC58E5C1AF697E40059E8D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC58E5A1AF697E40059E8D2 /* LaunchScreen.xib */; };
+		EBC58E681AF697E50059E8D2 /* SARMapDrawViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E671AF697E50059E8D2 /* SARMapDrawViewTests.m */; };
+		EBC58E841AF69C970059E8D2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E781AF69C970059E8D2 /* AVFoundation.framework */; };
+		EBC58E851AF69C970059E8D2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E791AF69C970059E8D2 /* CoreData.framework */; };
+		EBC58E861AF69C970059E8D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7A1AF69C970059E8D2 /* CoreLocation.framework */; };
+		EBC58E871AF69C970059E8D2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7B1AF69C970059E8D2 /* CoreText.framework */; };
+		EBC58E881AF69C970059E8D2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7C1AF69C970059E8D2 /* GLKit.framework */; };
+		EBC58E891AF69C970059E8D2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7D1AF69C970059E8D2 /* ImageIO.framework */; };
+		EBC58E8A1AF69C970059E8D2 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7E1AF69C970059E8D2 /* libc++.dylib */; };
+		EBC58E8B1AF69C970059E8D2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E7F1AF69C970059E8D2 /* libicucore.dylib */; };
+		EBC58E8C1AF69C970059E8D2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E801AF69C970059E8D2 /* libz.dylib */; };
+		EBC58E8D1AF69C970059E8D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E811AF69C970059E8D2 /* OpenGLES.framework */; };
+		EBC58E8E1AF69C970059E8D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E821AF69C970059E8D2 /* QuartzCore.framework */; };
+		EBC58E8F1AF69C970059E8D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC58E831AF69C970059E8D2 /* SystemConfiguration.framework */; };
+		EBC58E9C1AF69E4D0059E8D2 /* MGLMapView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E971AF69E4D0059E8D2 /* MGLMapView+Extensions.m */; };
+		EBC58E9D1AF69E4D0059E8D2 /* MGLPolygonPolygonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58E991AF69E4D0059E8D2 /* MGLPolygonPolygonUtils.m */; };
+		EBC58EA21AF6A0A50059E8D2 /* SARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC58EA11AF6A0A50059E8D2 /* SARCoordinate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC58E621AF697E50059E8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC58E401AF697E30059E8D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC58E471AF697E30059E8D2;
+			remoteInfo = SARMapDrawView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AFEDC742047E2C200369C9E /* NSArray+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
+		6AFEDC752047E2C200369C9E /* NSArray+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
+		A3CE1EFA199131672836E254 /* Pods-SARMapDrawViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapDrawViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapDrawViewTests/Pods-SARMapDrawViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4220466B33DE19B28DAE401 /* Pods-SARMapDrawView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapDrawView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapDrawView/Pods-SARMapDrawView.debug.xcconfig"; sourceTree = "<group>"; };
+		D44F6BC9A226566249640CFF /* libPods-SARMapDrawView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SARMapDrawView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D873510506F6FDF8B4CA84D0 /* libPods-SARMapDrawViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SARMapDrawViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0704CDC2C247AD831A864E /* Pods-SARMapDrawView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapDrawView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapDrawView/Pods-SARMapDrawView.release.xcconfig"; sourceTree = "<group>"; };
+		E422B1851335145BD8FD41DF /* Pods-SARMapDrawViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SARMapDrawViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SARMapDrawViewTests/Pods-SARMapDrawViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB2F21B71AFE9A35006E17DA /* SARMapDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARMapDrawView.h; sourceTree = "<group>"; };
+		EB2F21B81AFE9A35006E17DA /* SARMapDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARMapDrawView.m; sourceTree = "<group>"; };
+		EBC58E481AF697E40059E8D2 /* SARMapDrawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SARMapDrawView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC58E4C1AF697E40059E8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC58E4D1AF697E40059E8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBC58E4F1AF697E40059E8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBC58E501AF697E40059E8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBC58E521AF697E40059E8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBC58E531AF697E40059E8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBC58E561AF697E40059E8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC58E581AF697E40059E8D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBC58E5B1AF697E40059E8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBC58E611AF697E50059E8D2 /* SARMapDrawViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SARMapDrawViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC58E661AF697E50059E8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC58E671AF697E50059E8D2 /* SARMapDrawViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARMapDrawViewTests.m; sourceTree = "<group>"; };
+		EBC58E771AF699C50059E8D2 /* SARMapDrawView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SARMapDrawView-Prefix.pch"; sourceTree = "<group>"; };
+		EBC58E781AF69C970059E8D2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBC58E791AF69C970059E8D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBC58E7A1AF69C970059E8D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EBC58E7B1AF69C970059E8D2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EBC58E7C1AF69C970059E8D2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EBC58E7D1AF69C970059E8D2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EBC58E7E1AF69C970059E8D2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EBC58E7F1AF69C970059E8D2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		EBC58E801AF69C970059E8D2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EBC58E811AF69C970059E8D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EBC58E821AF69C970059E8D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBC58E831AF69C970059E8D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EBC58E961AF69E4D0059E8D2 /* MGLMapView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MGLMapView+Extensions.h"; sourceTree = "<group>"; };
+		EBC58E971AF69E4D0059E8D2 /* MGLMapView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MGLMapView+Extensions.m"; sourceTree = "<group>"; };
+		EBC58E981AF69E4D0059E8D2 /* MGLPolygon+PolygonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MGLPolygon+PolygonUtils.h"; sourceTree = "<group>"; };
+		EBC58E991AF69E4D0059E8D2 /* MGLPolygonPolygonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGLPolygonPolygonUtils.m; sourceTree = "<group>"; };
+		EBC58EA01AF6A0A50059E8D2 /* SARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARCoordinate.h; sourceTree = "<group>"; };
+		EBC58EA11AF6A0A50059E8D2 /* SARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARCoordinate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC58E451AF697E30059E8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC58E841AF69C970059E8D2 /* AVFoundation.framework in Frameworks */,
+				EBC58E851AF69C970059E8D2 /* CoreData.framework in Frameworks */,
+				EBC58E861AF69C970059E8D2 /* CoreLocation.framework in Frameworks */,
+				EBC58E871AF69C970059E8D2 /* CoreText.framework in Frameworks */,
+				EBC58E881AF69C970059E8D2 /* GLKit.framework in Frameworks */,
+				EBC58E891AF69C970059E8D2 /* ImageIO.framework in Frameworks */,
+				EBC58E8A1AF69C970059E8D2 /* libc++.dylib in Frameworks */,
+				EBC58E8B1AF69C970059E8D2 /* libicucore.dylib in Frameworks */,
+				EBC58E8C1AF69C970059E8D2 /* libz.dylib in Frameworks */,
+				EBC58E8D1AF69C970059E8D2 /* OpenGLES.framework in Frameworks */,
+				EBC58E8E1AF69C970059E8D2 /* QuartzCore.framework in Frameworks */,
+				EBC58E8F1AF69C970059E8D2 /* SystemConfiguration.framework in Frameworks */,
+				D1EA4EF194CE23F986C6ECED /* libPods-SARMapDrawView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC58E5E1AF697E50059E8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB681DEFACEEE350A745500 /* libPods-SARMapDrawViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F979229F4614F6628DFC338 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4220466B33DE19B28DAE401 /* Pods-SARMapDrawView.debug.xcconfig */,
+				DC0704CDC2C247AD831A864E /* Pods-SARMapDrawView.release.xcconfig */,
+				A3CE1EFA199131672836E254 /* Pods-SARMapDrawViewTests.debug.xcconfig */,
+				E422B1851335145BD8FD41DF /* Pods-SARMapDrawViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB2F21B61AFE9A35006E17DA /* SARMapDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				EB2F21B71AFE9A35006E17DA /* SARMapDrawView.h */,
+				EB2F21B81AFE9A35006E17DA /* SARMapDrawView.m */,
+			);
+			path = SARMapDrawView;
+			sourceTree = "<group>";
+		};
+		EBC58E3F1AF697E20059E8D2 = {
+			isa = PBXGroup;
+			children = (
+				EBC58E4A1AF697E40059E8D2 /* SARMapDrawView */,
+				EBC58E901AF69CA30059E8D2 /* Frameworks */,
+				EBC58E641AF697E50059E8D2 /* SARMapDrawViewTests */,
+				EBC58E491AF697E40059E8D2 /* Products */,
+				7F979229F4614F6628DFC338 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC58E491AF697E40059E8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E481AF697E40059E8D2 /* SARMapDrawView.app */,
+				EBC58E611AF697E50059E8D2 /* SARMapDrawViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC58E4A1AF697E40059E8D2 /* SARMapDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E4F1AF697E40059E8D2 /* AppDelegate.h */,
+				EBC58E501AF697E40059E8D2 /* AppDelegate.m */,
+				EBC58E9F1AF6A0280059E8D2 /* Models */,
+				EBC58E951AF69E4D0059E8D2 /* Categories */,
+				EB2F21B61AFE9A35006E17DA /* SARMapDrawView */,
+				EBC58E521AF697E40059E8D2 /* ViewController.h */,
+				EBC58E531AF697E40059E8D2 /* ViewController.m */,
+				EBC58E551AF697E40059E8D2 /* Main.storyboard */,
+				EBC58E581AF697E40059E8D2 /* Images.xcassets */,
+				EBC58E5A1AF697E40059E8D2 /* LaunchScreen.xib */,
+				EBC58E4B1AF697E40059E8D2 /* Supporting Files */,
+			);
+			path = SARMapDrawView;
+			sourceTree = "<group>";
+		};
+		EBC58E4B1AF697E40059E8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E4C1AF697E40059E8D2 /* Info.plist */,
+				EBC58E4D1AF697E40059E8D2 /* main.m */,
+				EBC58E771AF699C50059E8D2 /* SARMapDrawView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC58E641AF697E50059E8D2 /* SARMapDrawViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E671AF697E50059E8D2 /* SARMapDrawViewTests.m */,
+				EBC58E651AF697E50059E8D2 /* Supporting Files */,
+			);
+			path = SARMapDrawViewTests;
+			sourceTree = "<group>";
+		};
+		EBC58E651AF697E50059E8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E661AF697E50059E8D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC58E901AF69CA30059E8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E781AF69C970059E8D2 /* AVFoundation.framework */,
+				EBC58E791AF69C970059E8D2 /* CoreData.framework */,
+				EBC58E7A1AF69C970059E8D2 /* CoreLocation.framework */,
+				EBC58E7B1AF69C970059E8D2 /* CoreText.framework */,
+				EBC58E7C1AF69C970059E8D2 /* GLKit.framework */,
+				EBC58E7D1AF69C970059E8D2 /* ImageIO.framework */,
+				EBC58E7E1AF69C970059E8D2 /* libc++.dylib */,
+				EBC58E7F1AF69C970059E8D2 /* libicucore.dylib */,
+				EBC58E801AF69C970059E8D2 /* libz.dylib */,
+				EBC58E811AF69C970059E8D2 /* OpenGLES.framework */,
+				EBC58E821AF69C970059E8D2 /* QuartzCore.framework */,
+				EBC58E831AF69C970059E8D2 /* SystemConfiguration.framework */,
+				D44F6BC9A226566249640CFF /* libPods-SARMapDrawView.a */,
+				D873510506F6FDF8B4CA84D0 /* libPods-SARMapDrawViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBC58E951AF69E4D0059E8D2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58E961AF69E4D0059E8D2 /* MGLMapView+Extensions.h */,
+				EBC58E971AF69E4D0059E8D2 /* MGLMapView+Extensions.m */,
+				EBC58E981AF69E4D0059E8D2 /* MGLPolygon+PolygonUtils.h */,
+				EBC58E991AF69E4D0059E8D2 /* MGLPolygonPolygonUtils.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EBC58E9F1AF6A0280059E8D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBC58EA01AF6A0A50059E8D2 /* SARCoordinate.h */,
+				EBC58EA11AF6A0A50059E8D2 /* SARCoordinate.m */,
+				6AFEDC742047E2C200369C9E /* NSArray+Extensions.h */,
+				6AFEDC752047E2C200369C9E /* NSArray+Extensions.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC58E471AF697E30059E8D2 /* SARMapDrawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC58E6B1AF697E50059E8D2 /* Build configuration list for PBXNativeTarget "SARMapDrawView" */;
+			buildPhases = (
+				BBC4687D38BE250C3696CB30 /* [CP] Check Pods Manifest.lock */,
+				EBC58E441AF697E30059E8D2 /* Sources */,
+				EBC58E451AF697E30059E8D2 /* Frameworks */,
+				EBC58E461AF697E30059E8D2 /* Resources */,
+				B2540C91D1AE1FDA123F8551 /* [CP] Embed Pods Frameworks */,
+				2EF2BEE4367948B125A985CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SARMapDrawView;
+			productName = SARMapDrawView;
+			productReference = EBC58E481AF697E40059E8D2 /* SARMapDrawView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC58E601AF697E50059E8D2 /* SARMapDrawViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC58E6E1AF697E50059E8D2 /* Build configuration list for PBXNativeTarget "SARMapDrawViewTests" */;
+			buildPhases = (
+				45725B06C61A7F2310CD3BD4 /* [CP] Check Pods Manifest.lock */,
+				EBC58E5D1AF697E50059E8D2 /* Sources */,
+				EBC58E5E1AF697E50059E8D2 /* Frameworks */,
+				EBC58E5F1AF697E50059E8D2 /* Resources */,
+				E94E4287CC948A26BFDB8068 /* [CP] Embed Pods Frameworks */,
+				61AB7001AA975F21A666EEB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC58E631AF697E50059E8D2 /* PBXTargetDependency */,
+			);
+			name = SARMapDrawViewTests;
+			productName = SARMapDrawViewTests;
+			productReference = EBC58E611AF697E50059E8D2 /* SARMapDrawViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC58E401AF697E30059E8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Saravanan;
+				TargetAttributes = {
+					EBC58E471AF697E30059E8D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4U4KKR37DC;
+					};
+					EBC58E601AF697E50059E8D2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EBC58E471AF697E30059E8D2;
+					};
+				};
+			};
+			buildConfigurationList = EBC58E431AF697E30059E8D2 /* Build configuration list for PBXProject "SARMapDrawView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC58E3F1AF697E20059E8D2;
+			productRefGroup = EBC58E491AF697E40059E8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC58E471AF697E30059E8D2 /* SARMapDrawView */,
+				EBC58E601AF697E50059E8D2 /* SARMapDrawViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC58E461AF697E30059E8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC58E571AF697E40059E8D2 /* Main.storyboard in Resources */,
+				EBC58E5C1AF697E40059E8D2 /* LaunchScreen.xib in Resources */,
+				EBC58E591AF697E40059E8D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC58E5F1AF697E50059E8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF2BEE4367948B125A985CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapDrawView/Pods-SARMapDrawView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45725B06C61A7F2310CD3BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SARMapDrawViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AB7001AA975F21A666EEB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapDrawViewTests/Pods-SARMapDrawViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2540C91D1AE1FDA123F8551 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SARMapDrawView/Pods-SARMapDrawView-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapDrawView/Pods-SARMapDrawView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC4687D38BE250C3696CB30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SARMapDrawView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94E4287CC948A26BFDB8068 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SARMapDrawViewTests/Pods-SARMapDrawViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC58E441AF697E30059E8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC58E541AF697E40059E8D2 /* ViewController.m in Sources */,
+				EBC58E9C1AF69E4D0059E8D2 /* MGLMapView+Extensions.m in Sources */,
+				EBC58E9D1AF69E4D0059E8D2 /* MGLPolygonPolygonUtils.m in Sources */,
+				EBC58E511AF697E40059E8D2 /* AppDelegate.m in Sources */,
+				EBC58EA21AF6A0A50059E8D2 /* SARCoordinate.m in Sources */,
+				EB2F21B91AFE9A35006E17DA /* SARMapDrawView.m in Sources */,
+				6AFEDC762047E2C200369C9E /* NSArray+Extensions.m in Sources */,
+				EBC58E4E1AF697E40059E8D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC58E5D1AF697E50059E8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFEDC772047E2C200369C9E /* NSArray+Extensions.m in Sources */,
+				EBC58E681AF697E50059E8D2 /* SARMapDrawViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC58E631AF697E50059E8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC58E471AF697E30059E8D2 /* SARMapDrawView */;
+			targetProxy = EBC58E621AF697E50059E8D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC58E551AF697E40059E8D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC58E561AF697E40059E8D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC58E5A1AF697E40059E8D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC58E5B1AF697E40059E8D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC58E691AF697E50059E8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC58E6A1AF697E50059E8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC58E6C1AF697E50059E8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4220466B33DE19B28DAE401 /* Pods-SARMapDrawView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U4KKR37DC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SARMapDrawView/SARMapDrawView-Prefix.pch";
+				INFOPLIST_FILE = SARMapDrawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = saravanan.SARMapDrawViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC58E6D1AF697E50059E8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0704CDC2C247AD831A864E /* Pods-SARMapDrawView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U4KKR37DC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SARMapDrawView/SARMapDrawView-Prefix.pch";
+				INFOPLIST_FILE = SARMapDrawView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = saravanan.SARMapDrawViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBC58E6F1AF697E50059E8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CE1EFA199131672836E254 /* Pods-SARMapDrawViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SARMapDrawViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SARMapDrawView.app/SARMapDrawView";
+			};
+			name = Debug;
+		};
+		EBC58E701AF697E50059E8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E422B1851335145BD8FD41DF /* Pods-SARMapDrawViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SARMapDrawViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SARMapDrawView.app/SARMapDrawView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC58E431AF697E30059E8D2 /* Build configuration list for PBXProject "SARMapDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC58E691AF697E50059E8D2 /* Debug */,
+				EBC58E6A1AF697E50059E8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC58E6B1AF697E50059E8D2 /* Build configuration list for PBXNativeTarget "SARMapDrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC58E6C1AF697E50059E8D2 /* Debug */,
+				EBC58E6D1AF697E50059E8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC58E6E1AF697E50059E8D2 /* Build configuration list for PBXNativeTarget "SARMapDrawViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC58E6F1AF697E50059E8D2 /* Debug */,
+				EBC58E701AF697E50059E8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC58E401AF697E30059E8D2 /* Project object */;
+}

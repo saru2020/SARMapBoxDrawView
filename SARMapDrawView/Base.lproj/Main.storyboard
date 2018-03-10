@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPy-Ol-z71" customClass="SARMapDrawView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UOm-VS-OgG" customClass="MGLMapView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="styleURL__" value="mapbox://styles/mapbox/satellite-streets-v10"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="UOm-VS-OgG" firstAttribute="top" secondItem="FPy-Ol-z71" secondAttribute="top" id="5ek-OE-6lC"/>
+                                    <constraint firstItem="UOm-VS-OgG" firstAttribute="leading" secondItem="FPy-Ol-z71" secondAttribute="leading" id="VJj-aO-xTK"/>
+                                    <constraint firstAttribute="trailing" secondItem="UOm-VS-OgG" secondAttribute="trailing" id="XXT-m1-hTG"/>
+                                    <constraint firstAttribute="bottom" secondItem="UOm-VS-OgG" secondAttribute="bottom" id="Yrq-cr-biG"/>
+                                    <constraint firstItem="UOm-VS-OgG" firstAttribute="top" secondItem="FPy-Ol-z71" secondAttribute="top" id="a2Z-4X-5ul"/>
+                                    <constraint firstItem="UOm-VS-OgG" firstAttribute="leading" secondItem="FPy-Ol-z71" secondAttribute="leading" id="grv-6N-yjt"/>
+                                    <constraint firstAttribute="trailing" secondItem="UOm-VS-OgG" secondAttribute="trailing" id="m4k-X9-UVR"/>
+                                    <constraint firstAttribute="bottom" secondItem="UOm-VS-OgG" secondAttribute="bottom" id="tQW-to-26W"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="mapView" destination="UOm-VS-OgG" id="Zb6-th-tgj"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLT-RQ-FUF">
+                                <rect key="frame" x="20" y="603" width="34" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="FGz-it-Zgy"/>
+                                    <constraint firstAttribute="height" constant="34" id="UCr-HJ-4kG"/>
+                                </constraints>
+                                <color key="tintColor" red="0.67450980390000004" green="0.074509803920000006" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="pen-off"/>
+                                <state key="selected" image="pen-on"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="penButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCc-6I-DHq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FPy-Ol-z71" secondAttribute="trailing" id="1ZP-f7-FCO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FPy-Ol-z71" secondAttribute="bottom" id="Sqm-ID-9eW"/>
+                            <constraint firstItem="dLT-RQ-FUF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="eTm-x2-M3f"/>
+                            <constraint firstItem="FPy-Ol-z71" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ene-3P-5wf"/>
+                            <constraint firstItem="FPy-Ol-z71" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="m5M-q3-MaX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dLT-RQ-FUF" secondAttribute="bottom" constant="30" id="yUK-02-IcH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapDrawView" destination="FPy-Ol-z71" id="g9T-B1-htS"/>
+                        <outlet property="penButton" destination="dLT-RQ-FUF" id="bQE-2y-cKS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pen-off" width="34" height="34"/>
+        <image name="pen-on" width="34" height="34"/>
+    </resources>
+</document>
