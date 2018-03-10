@@ -4,7 +4,7 @@
 Free Hand Drawing on MapBox Map View(MGLMapView) for iOS written in Swift.
 
 <b>Looking for Google Maps Version?</b><br/>
-Add the following to your <a href="https://github.com/saru2020/SARMapDrawView/">Try SARMapDrawView</a> Podfile
+<a href="https://github.com/saru2020/SARMapDrawView/">Try SARMapDrawView</a>
 
 
 <br>
